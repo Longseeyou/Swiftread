@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>SwiftRead</title>
+        <link rel="stylesheet" href="index.css"> 
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="spreedRead.js"></script>
+    </head>
+    <body>
+        <div class="text center" id="start-text">
+            START READING
+        </div>
+        <div class="highlight-box">
+        </div>
+        <div class="container">
+            <div class="box"></div>
+          <!--   <div class="box pause"></div> -->
+        </div>
+        <div id="wpm-group" class="config-group">
+            <div id="wpm-title" class="config-title">WPM</div>
+            <div id="wpm-display" class="config-display config-buttons">
+                <div id="wpm" class="config-display-text">400</div>
+                <div id="increase-wpm" class="config-button-up">
+                    <svg class="svg-arrow" width="24px" height="18px">
+                        <path class="svg-path"
+                            d="M12,10l5.3,4.2c0.1,0.1,0.3,0.2,0.5,0.2c0.4,0,0.7-0.3,0.7-0.7c0-0.2-0.2-0.4-0.4-0.5l-5.7-4.3c-0.1-0.1-0.3-0.2-0.5-0.2h0
+                        c-0.2,0-0.4,0.1-0.5,0.2l-5.7,4.3c-0.2,0.1-0.4,0.3-0.4,0.5c0,0.4,0.3,0.7,0.7,0.7c0.2,0,0.4-0.1,0.5-0.2L12,10z" />
+                    </svg>
+                </div>
+                <div id="decrease-wpm" class="config-button-down">
+                    <svg class="svg-arrow" width="24px" height="18px">
+                        <path class="svg-path" d="M12,8L6.7,3.8C6.6,3.7,6.4,3.6,6.2,3.6c-0.4,0-0.7,0.3-0.7,0.7c0,0.2,0.2,0.4,0.4,0.5l5.7,4.3c0.1,0.1,0.3,0.2,0.5,0.2h0
+                        c0.2,0,0.4-0.1,0.5-0.2l5.7-4.3c0.2-0.1,0.4-0.3,0.4-0.5c0-0.4-0.3-0.7-0.7-0.7c-0.2,0-0.4,0.1-0.5,0.2L12,8z" />
+                    </svg>
+                </div>
+            </div>
+            <div id="wpm-calibrate"><a target="_blank" href="https://swiftread.com/i/find-max-reading-speed"><i
+                        class="fas fa-drafting-compass"></i></a></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    background-color: gray;
+    color: white;
+    font-family: 'sansforgetica';
+}
+
+div.text {
+    font-size: 300px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.box{
+    width: 74px;
+    height: 74px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 37px 0px 37px 74px;
+    border-color: transparent transparent transparent white;
+    transition: all 100ms ease-in-out;
+}
+  
+.pause{
+    border-style: double;
+    border-width:0px 0px 0px 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.box::hover {
+    border-color: transparent transparent transparent red;
+}
+
+.highlight {
+    color: rgb(246, 134, 31);  
+}
+
+.highlight-box{
+    font-size: 300px;
+    text-align: center;
+}
+
+#wpm-group {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+#wpm-group #wpm-calibrate {
+    margin-left: 5px;
+  }
